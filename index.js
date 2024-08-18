@@ -5,7 +5,7 @@ document.querySelectorAll("button")[i].addEventListener("click",clickfn);
 function clickfn(){
         switch(this.innerHTML){
             case 'w':
-            var w_audio=new Audio("./sounds/crash.mp3");
+            var w_audio=new Audio("crash.mp3");
             w_audio.play();
             break;
 
